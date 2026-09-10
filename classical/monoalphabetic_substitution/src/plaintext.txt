@@ -1,0 +1,15 @@
+Many years earlier, the analysis of the one time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with perfect security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another.
+
+We study this problem in depth in cryptography. Perfectly secure systems provide strong protection because an attacker cannot learn useful information about the message from the ciphertext alone.
+
+Perfect secrecy is an important concept in modern cryptography. The one time pad is a well known example of an encryption scheme that can achieve perfect secrecy when the key is chosen correctly and used only once.
+Many years earlier, the analysis of the one time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with perfect security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another.
+
+We study this problem in depth in cryptography. Perfectly secure systems provide strong protection because an attacker cannot learn useful information about the message from the ciphertext alone.
+
+Perfect secrecy is an important concept in modern cryptography. The one time pad is a well known example of an encryption scheme that can achieve perfect secrecy when the key is chosen correctly and used only once.
+

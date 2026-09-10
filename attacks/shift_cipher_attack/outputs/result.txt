@@ -1,0 +1,19 @@
+===== Shift Cipher Cryptanalysis =====
+
+Enter plaintext: Enter key (0-25): 
+Encrypted Ciphertext:
+khoor
+
+===== Dictionary Attack =====
+Predicted Key: 3
+Predicted Plaintext:
+hello
+
+===== Chi-Square Attack =====
+Predicted Key: 14
+Predicted Plaintext:
+wtaad
+
+===== Actual Values =====
+Actual Key: 3
+Original Plaintext: hello

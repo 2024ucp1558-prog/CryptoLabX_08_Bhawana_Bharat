@@ -15,7 +15,7 @@ public class ECommerceApp {
             System.out.print("Select an option: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // clear buffer
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -39,15 +39,14 @@ public class ECommerceApp {
         }
     }
 
-    // Vulnerability 1: SQL Injection
-    // Direct string concatenation allows authentication bypass (e.g., input: ' OR '1'='1)
+
     public static void login() {
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
 
-        // Intentionally vulnerable dynamic query construction
+  
         String query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
         System.out.println("[DEBUG Executing Query]: " + query);
 
@@ -58,7 +57,7 @@ public class ECommerceApp {
         }
     }
 
-    // Core Functionality: Product Browsing
+  
     public static void browseProducts() {
         System.out.println("\n--- Available Products ---");
         System.out.println("1. Laptop - $1000");
@@ -66,15 +65,13 @@ public class ECommerceApp {
         System.out.println("3. Headphones - $100");
     }
 
-    // Vulnerability 2: Price Manipulation due to Poor Validation
-    // The application trusts user-provided or client-controlled item price without validation
     public static void checkout() {
         System.out.print("Enter item price ($): ");
         double price = scanner.nextDouble();
         System.out.print("Enter quantity: ");
         int quantity = scanner.nextInt();
 
-        // Poor validation allows negative prices or tampered low values
+       
         double total = price * quantity;
         System.out.println("Total Amount Charged: $" + total);
         if (total <= 0) {

@@ -6,18 +6,18 @@
 
 using namespace std;
 
-// Shift Cipher
+
 string encryptText(const string& text, int key);
 string decryptText(const string& text, int key);
 
-// Dictionary attack
+
 unordered_set<string> loadDictionary(const string& filename);
 
 pair<int, string> dictionaryAttack(
     const string& ciphertext,
     const unordered_set<string>& dictionary);
 
-// Chi-square attack
+
 pair<int, string> chiSquareAttack(
     const string& ciphertext);
 

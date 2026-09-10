@@ -1,0 +1,211 @@
+
+
+REPORT ON BRUTE FORCE, CHI-SQUARE AND SHIFT CIPHER
+
+ 1. INTRODUCTION
+
+ Cryptography is the study of techniques used to protect information by converting readable data (plaintext) into an unreadable form (ciphertext). The original message can be recovered by applying the appropriate decryption technique.
+
+ This report discusses three important concepts related to classical cryptography: Shift Cipher, Brute Force Attack, and Chi-Square Analysis. Shift Cipher is a simple substitution cipher, while Brute Force and Chi-Square Analysis can be used to attack or analyze such ciphers.
+
+ 2. SHIFT CIPHER
+
+ A Shift Cipher, also known as Caesar Cipher, is one of the simplest encryption techniques. In this method, each letter of the plaintext is shifted by a fixed number of positions in the alphabet.
+
+ For example, if the shift value is 3:
+
+ A -\> D\
+ B -\> E\
+ C -\> F\
+ D -\> G
+
+ Using this shift, the plaintext:
+
+ HELLO
+
+ is encrypted as:
+
+ KHOOR
+
+ The encryption formula is:
+
+ C = (P + K) mod 26
+
+ Where:\
+ P = position of plaintext letter\
+ K = shift key\
+ C = position of ciphertext letter
+
+ For decryption:
+
+ P = (C - K) mod 26
+
+ A major weakness of the Shift Cipher is that there are only 26 possible keys. Therefore, it is very easy to attack.
+
+ 3. BRUTE FORCE ATTACK
+
+ A Brute Force Attack is a method in which all possible keys are tested until the correct key is found.
+
+ For a Shift Cipher, the attacker can try every possible shift value from 0 to 25. For example:
+
+ Key 0: HELLO\
+ Key 1: IFMMP\
+ Key 2: JGNNQ\
+ Key 3: KHOOR\
+ ...\
+ Key 25: GDKKN
+
+ The attacker examines the resulting plaintexts and identifies the one that makes meaningful sense.
+
+ Advantages:
+
+ - Simple to implement.
+- Does not require advanced mathematical techniques.
+- Guaranteed to find the correct key if all possibilities are tested.
+
+ Disadvantages:
+
+ - Inefficient for ciphers with a large key space.
+- Produces many incorrect results.
+- Requires a method to recognize the correct plaintext.
+
+ For a Shift Cipher, brute force is particularly effective because the key space is very small.
+
+ 4. CHI-SQUARE ANALYSIS
+
+ Chi-Square Analysis is a statistical technique that can be used to determine which decrypted text is most likely to represent normal English.
+
+ English language has characteristic letter frequencies. For example, letters such as E, T, A, O and I occur more frequently than letters such as Q, X and Z.
+
+ The Chi-Square statistic compares the observed frequency of letters in a decrypted message with the expected frequency of letters in English.
+
+ The general formula is:
+
+ Chi-Square = SUM ((Observed - Expected)^2 / Expected)
+
+ Where:\
+ Observed = frequency of a letter in the ciphertext/plaintext being tested\
+ Expected = expected frequency of that letter in English
+
+ A lower Chi-Square value generally indicates that the letter distribution is closer to normal English frequency distribution.
+
+ 5. USING CHI-SQUARE TO BREAK A SHIFT CIPHER
+
+ Chi-Square analysis can be combined with brute force to automatically identify the likely key.
+
+ The basic procedure is:
+
+ 1. Take the ciphertext.
+2. Try each possible shift from 0 to 25.
+3. Decrypt the ciphertext using that shift.
+4. Count the frequency of each letter in the resulting text.
+5. Calculate the Chi-Square value.
+6. Compare the values for all possible shifts.
+7. Select the shift having the lowest score.
+8. The resulting plaintext is considered the most likely decryption.
+
+ For example, suppose the ciphertext is:
+
+ KHOOR ZRUOG
+
+ Trying a shift of 3 gives:
+
+ HELLO WORLD
+
+ The decrypted text is meaningful English, so the shift key is likely 3.
+
+ 6. COMBINATION OF BRUTE FORCE AND CHI-SQUARE
+
+ Brute Force and Chi-Square Analysis can work together.
+
+ Brute Force generates all possible decryptions, while Chi-Square Analysis provides a statistical way to rank those decryptions.
+
+ Instead of manually checking every result, a program can calculate the Chi-Square score for each possible key. The key with the lowest score can then be displayed as the best candidate.
+
+ This approach is useful because it reduces the need for manual inspection and makes the attack more systematic.
+
+ 7. SIMPLE ALGORITHM
+
+ Algorithm for Shift Cipher Encryption:
+
+ 1. Read plaintext.
+2. Read shift key.
+3. For every alphabetic character:\
+    a. Convert the character to its alphabet position.\
+    b. Add the shift key.\
+    c. Apply modulo 26.\
+    d. Convert the result back to a character.
+4. Display the ciphertext.
+
+ Algorithm for Brute Force Attack:
+
+ 1. Read ciphertext.
+2. For key = 0 to 25:\
+    a. Decrypt ciphertext using the key.\
+    b. Display the resulting text.
+3. Examine all possible plaintexts.
+4. Select the meaningful result.
+
+ Algorithm for Chi-Square Analysis:
+
+ 1. Read ciphertext.
+2. For every possible shift:\
+    a. Decrypt the ciphertext.\
+    b. Calculate letter frequencies.\
+    c. Calculate Chi-Square score.
+3. Compare all scores.
+4. Select the key with the lowest score.
+5. Display the corresponding plaintext.
+6. ADVANTAGES AND LIMITATIONS
+
+ Shift Cipher:\
+ Advantages:
+
+ - Very simple.
+- Easy to understand and implement.
+- Useful for learning basic cryptography concepts.
+
+ Limitations:
+
+ - Very small key space.
+- Easily broken using brute force.
+- Vulnerable to frequency analysis.
+
+ Brute Force:\
+ Advantages:
+
+ - Straightforward approach.
+- Works well when the key space is small.
+- Does not require knowledge of the original key.
+
+ Limitations:
+
+ - Can become expensive when the key space is large.
+- Requires a way to identify the correct result.
+
+ Chi-Square:\
+ Advantages:
+
+ - Useful for statistical analysis.
+- Can automatically rank possible decryptions.
+- Reduces manual effort.
+
+ Limitations:
+
+ - Works better with sufficiently long text.
+- Accuracy depends on the language and expected frequency distribution.
+- Very short ciphertexts may produce unreliable results.
+
+ 9. COMPARISON
+
+ Shift Cipher is an encryption method, whereas Brute Force and Chi-Square Analysis are techniques that can be used to attack or analyze the cipher.
+
+ Brute Force tries every possible key. Chi-Square Analysis evaluates the statistical characteristics of the decrypted text. When both techniques are combined, all possible keys can be tested and ranked according to how closely their output resembles normal English.
+
+ 10. CONCLUSION
+
+ Shift Cipher is an important introductory example of classical encryption. Although it is easy to implement, its security is extremely weak because it has only a small number of possible keys.
+
+ A Brute Force Attack can easily test every possible Shift Cipher key. Chi-Square Analysis provides an additional statistical method for identifying the most likely plaintext by comparing letter frequencies with expected English frequencies.
+
+ Therefore, the combination of Brute Force and Chi-Square Analysis demonstrates how cryptanalysis can be performed systematically. These concepts are useful for understanding the strengths and weaknesses of classical cryptographic techniques and provide a foundation for studying more advanced cryptography.

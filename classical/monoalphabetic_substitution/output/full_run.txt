@@ -1,0 +1,236 @@
+Plaintext:
+Many years earlier, the analysis of the one time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with perfect security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another.
+
+We study this problem in depth in cryptography. Perfectly secure systems provide strong protection because an attacker cannot learn useful information about the message from the ciphertext alone.
+
+Perfect secrecy is an important concept in modern cryptography. The one time pad is a well known example of an encryption scheme that can achieve perfect secrecy when the key is chosen correctly and used only once.
+Many years earlier, the analysis of the one time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with perfect security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another.
+
+We study this problem in depth in cryptography. Perfectly secure systems provide strong protection because an attacker cannot learn useful information about the message from the ciphertext alone.
+
+Perfect secrecy is an important concept in modern cryptography. The one time pad is a well known example of an encryption scheme that can achieve perfect secrecy when the key is chosen correctly and used only once.
+
+
+Ciphertext:
+Dqfn ntqkl tqksotk, zit qfqsnlol gy zit gft zodt hqr iqr zg qvqoz zit ukgxfrwktqaofu vgka gy Liqffgf, vig ofzkgrxetr zit fgzogf gy htkytez ltekten.
+
+Of ziol eiqhztk vt lzxrotr htkytezsn ltektz tfeknhzogf. Lgdt gzitk eknhzgukqhioe hkgwstdl eqf qslg wt lgsctr vozi htkytez ltexkozn. Q fgzqwst tbqdhst ol zit hkgwstd gy dtllqut qxzitfzoeqzogf vitkt zit qod ol zg hktctfz qf qrctklqkn ykgd xfrtztezqwsn dgroynofu q dtllqut ltfz ykgd gft hqkzn zg qfgzitk.
+
+Vt lzxrn ziol hkgwstd of rthzi of eknhzgukqhin. Htkytezsn ltexkt lnlztdl hkgcort lzkgfu hkgztezogf wteqxlt qf qzzqeatk eqffgz stqkf xltyxs ofygkdqzogf qwgxz zit dtllqut ykgd zit eohitkztbz qsgft.
+
+Htkytez ltekten ol qf odhgkzqfz egfethz of dgrtkf eknhzgukqhin. Zit gft zodt hqr ol q vtss afgvf tbqdhst gy qf tfeknhzogf leitdt ziqz eqf qeiotct htkytez ltekten vitf zit atn ol eigltf egkktezsn qfr xltr gfsn gfet.
+Dqfn ntqkl tqksotk, zit qfqsnlol gy zit gft zodt hqr iqr zg qvqoz zit ukgxfrwktqaofu vgka gy Liqffgf, vig ofzkgrxetr zit fgzogf gy htkytez ltekten.
+
+Of ziol eiqhztk vt lzxrotr htkytezsn ltektz tfeknhzogf. Lgdt gzitk eknhzgukqhioe hkgwstdl eqf qslg wt lgsctr vozi htkytez ltexkozn. Q fgzqwst tbqdhst ol zit hkgwstd gy dtllqut qxzitfzoeqzogf vitkt zit qod ol zg hktctfz qf qrctklqkn ykgd xfrtztezqwsn dgroynofu q dtllqut ltfz ykgd gft hqkzn zg qfgzitk.
+
+Vt lzxrn ziol hkgwstd of rthzi of eknhzgukqhin. Htkytezsn ltexkt lnlztdl hkgcort lzkgfu hkgztezogf wteqxlt qf qzzqeatk eqffgz stqkf xltyxs ofygkdqzogf qwgxz zit dtllqut ykgd zit eohitkztbz qsgft.
+
+Htkytez ltekten ol qf odhgkzqfz egfethz of dgrtkf eknhzgukqhin. Zit gft zodt hqr ol q vtss afgvf tbqdhst gy qf tfeknhzogf leitdt ziqz eqf qeiotct htkytez ltekten vitf zit atn ol eigltf egkktezsn qfr xltr gfsn gfet.
+
+
+Frequency Analysis
+T  204  14.2857%
+Z  132  9.2437%
+G  108  7.56303%
+F  106  7.42297%
+Q  104  7.28291%
+K  104  7.28291%
+E  80  5.60224%
+L  80  5.60224%
+O  74  5.18207%
+I  62  4.34174%
+H  60  4.20168%
+N  50  3.5014%
+D  44  3.08123%
+S  40  2.80112%
+R  36  2.52101%
+Y  34  2.38095%
+X  26  1.82073%
+U  20  1.40056%
+V  20  1.40056%
+W  18  1.2605%
+A  10  0.70028%
+C  10  0.70028%
+B  6  0.420168%
+Most frequent: T
+
+Word Frequency Analysis
+afgvf : 2
+atn : 2
+dgroynofu : 2
+dgrtkf : 2
+dqfn : 2
+dtllqut : 6
+egfethz : 2
+egkktezsn : 2
+eigltf : 2
+eiqhztk : 2
+eknhzgukqhin : 4
+eknhzgukqhioe : 2
+eohitkztbz : 2
+eqf : 4
+eqffgz : 2
+fgzogf : 2
+fgzqwst : 2
+gfet : 2
+gfsn : 2
+gft : 6
+gy : 10
+gzitk : 2
+hkgcort : 2
+hkgwstd : 4
+hkgwstdl : 2
+hkgztezogf : 2
+hktctfz : 2
+hqkzn : 2
+hqr : 4
+htkytez : 8
+htkytezsn : 4
+iqr : 2
+leitdt : 2
+lgdt : 2
+lgsctr : 2
+liqffgf : 2
+lnlztdl : 2
+ltekten : 6
+ltektz : 2
+ltexkozn : 2
+ltexkt : 2
+ltfz : 2
+lzkgfu : 2
+lzxrn : 2
+lzxrotr : 2
+ntqkl : 2
+odhgkzqfz : 2
+of : 8
+ofygkdqzogf : 2
+ofzkgrxetr : 2
+ol : 10
+q : 6
+qeiotct : 2
+qf : 8
+qfgzitk : 2
+qfqsnlol : 2
+qfr : 2
+qod : 2
+qrctklqkn : 2
+qsgft : 2
+qslg : 2
+qvqoz : 2
+qwgxz : 2
+qxzitfzoeqzogf : 2
+qzzqeatk : 2
+rthzi : 2
+stqkf : 2
+tbqdhst : 4
+tfeknhzogf : 4
+tqksotk : 2
+ukgxfrwktqaofu : 2
+vgka : 2
+vig : 2
+vitf : 2
+vitkt : 2
+vozi : 2
+vt : 4
+vtss : 2
+wt : 2
+wteqxlt : 2
+xfrtztezqwsn : 2
+xltr : 2
+xltyxs : 2
+ykgd : 6
+zg : 6
+ziol : 4
+ziqz : 2
+zit : 20
+zodt : 4
+
+Pattern Analysis
+0 : q q q q q q 
+01 : gy zg gy gy of vt wt ol gy ol zg qf zg vt of of qf ol qf of ol gy qf ol gy zg gy gy of vt wt ol gy ol zg qf zg vt of of qf ol qf of ol gy qf ol 
+01023 : qvqoz qvqoz 
+0102340 : lnlztdl lnlztdl 
+01023454 : qfqsnlol qfqsnlol 
+01102345 : qzzqeatk qzzqeatk 
+012 : zit zit gft hqr iqr zit vig zit eqf zit zit qod gft zit zit zit gft hqr eqf zit atn qfr zit zit gft hqr iqr zit vig zit eqf zit zit qod gft zit zit zit gft hqr eqf zit atn qfr 
+0120 : ziqz ziqz 
+0120345 : egfethz egfethz 
+0122 : vtss vtss 
+012230456 : egkktezsn egkktezsn 
+012234 : eqffgz eqffgz 
+0122341 : dtllqut dtllqut dtllqut dtllqut dtllqut dtllqut 
+0123 : dqfn zodt vgka ziol lgdt qslg vozi ykgd ltfz ykgd ziol ykgd zodt vitf xltr gfsn gfet dqfn zodt vgka ziol lgdt qslg vozi ykgd ltfz ykgd ziol ykgd zodt vitf xltr gfsn gfet 
+012304 : xltyxs xltyxs 
+01231 : afgvf afgvf 
+012310 : fgzogf fgzogf 
+0123124 : ltekten ltekten ltekten ltekten ltekten ltekten 
+012314 : ltektz ltektz 
+0123145 : htkytez htkytez htkytez htkytez htkytez htkytez htkytez htkytez 
+012314567 : htkytezsn htkytezsn htkytezsn htkytezsn 
+01232 : vitkt vitkt 
+0123245 : hktctfz hktctfz 
+0123343 : liqffgf liqffgf 
+01234 : ntqkl gzitk hqkzn lzxrn rthzi stqkf qwgxz qsgft ntqkl gzitk hqkzn lzxrn rthzi stqkf qwgxz qsgft 
+0123402 : tqksotk tqksotk 
+012341 : ltexkt ltexkt 
+012343 : leitdt leitdt 
+012343546789 : xfrtztezqwsn xfrtztezqwsn 
+012345 : lgsctr lzkgfu dgrtkf eigltf lgsctr lzkgfu dgrtkf eigltf 
+0123450 : tbqdhst tbqdhst tbqdhst tbqdhst 
+012345046 : qrctklqkn qrctklqkn 
+0123451 : wteqxlt wteqxlt 
+01234526702685 : qxzitfzoeqzogf qxzitfzoeqzogf 
+0123453 : lzxrotr lzxrotr 
+0123453627 : hkgztezogf hkgztezogf 
+012345367 : dgroynofu dgroynofu 
+0123454 : qeiotct qeiotct 
+0123456 : eiqhztk fgzqwst hkgwstd qfgzitk hkgwstd hkgcort eiqhztk fgzqwst hkgwstd qfgzitk hkgwstd hkgcort 
+012345617382 : eknhzgukqhin eknhzgukqhin eknhzgukqhin eknhzgukqhin 
+0123456173890 : eknhzgukqhioe eknhzgukqhioe 
+012345617891040 : ukgxfrwktqaofu ukgxfrwktqaofu 
+0123456476 : eohitkztbz eohitkztbz 
+01234567 : hkgwstdl ltexkozn hkgwstdl ltexkozn 
+01234567031 : ofygkdqzogf ofygkdqzogf 
+012345675 : odhgkzqfz odhgkzqfz 
+0123456781 : tfeknhzogf tfeknhzogf tfeknhzogf tfeknhzogf 
+0123456785 : ofzkgrxetr ofzkgrxetr 
+
+Partial Plaintext:
+DEfn ntEkl tEksotk, zit EfEsnlol gy zit gft zodt hEO iEO zg EvEoz zit ukgxfOTktEaofu vgka gy LiEffgf, vig ofzkgOxAtO zit fgzogf gy htkytAz ltAktAn.
+
+Of ziol AiEhztk vt lzxOotO htkytAzsn ltAktz tfAknhzogf. Lgdt gzitk AknhzgukEhioA hkgTstdl AEf Eslg Tt lgsctO vozi htkytAz ltAxkozn. E fgzETst tbEdhst ol zit hkgTstd gy dtllEut ExzitfzoAEzogf vitkt zit Eod ol zg hktctfz Ef EOctklEkn ykgd xfOtztAzETsn dgOoynofu E dtllEut ltfz ykgd gft hEkzn zg Efgzitk.
+
+Vt lzxOn ziol hkgTstd of Othzi of AknhzgukEhin. HtkytAzsn ltAxkt lnlztdl hkgcoOt lzkgfu hkgztAzogf TtAExlt Ef EzzEAatk AEffgz stEkf xltyxs ofygkdEzogf ETgxz zit dtllEut ykgd zit Aohitkztbz Esgft.
+
+HtkytAz ltAktAn ol Ef odhgkzEfz AgfAthz of dgOtkf AknhzgukEhin. Zit gft zodt hEO ol E vtss afgvf tbEdhst gy Ef tfAknhzogf lAitdt ziEz AEf EAiotct htkytAz ltAktAn vitf zit atn ol Aigltf AgkktAzsn EfO xltO gfsn gfAt.
+DEfn ntEkl tEksotk, zit EfEsnlol gy zit gft zodt hEO iEO zg EvEoz zit ukgxfOTktEaofu vgka gy LiEffgf, vig ofzkgOxAtO zit fgzogf gy htkytAz ltAktAn.
+
+Of ziol AiEhztk vt lzxOotO htkytAzsn ltAktz tfAknhzogf. Lgdt gzitk AknhzgukEhioA hkgTstdl AEf Eslg Tt lgsctO vozi htkytAz ltAxkozn. E fgzETst tbEdhst ol zit hkgTstd gy dtllEut ExzitfzoAEzogf vitkt zit Eod ol zg hktctfz Ef EOctklEkn ykgd xfOtztAzETsn dgOoynofu E dtllEut ltfz ykgd gft hEkzn zg Efgzitk.
+
+Vt lzxOn ziol hkgTstd of Othzi of AknhzgukEhin. HtkytAzsn ltAxkt lnlztdl hkgcoOt lzkgfu hkgztAzogf TtAExlt Ef EzzEAatk AEffgz stEkf xltyxs ofygkdEzogf ETgxz zit dtllEut ykgd zit Aohitkztbz Esgft.
+
+HtkytAz ltAktAn ol Ef odhgkzEfz AgfAthz of dgOtkf AknhzgukEhin. Zit gft zodt hEO ol E vtss afgvf tbEdhst gy Ef tfAknhzogf lAitdt ziEz AEf EAiotct htkytAz ltAktAn vitf zit atn ol Aigltf AgkktAzsn EfO xltO gfsn gfAt.
+
+
+
+Recovered Plaintext:
+Many years earlier, the analysis of the one time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with perfect security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another.
+
+We study this problem in depth in cryptography. Perfectly secure systems provide strong protection because an attacker cannot learn useful information about the message from the ciphertext alone.
+
+Perfect secrecy is an important concept in modern cryptography. The one time pad is a well known example of an encryption scheme that can achieve perfect secrecy when the key is chosen correctly and used only once.
+Many years earlier, the analysis of the one time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with perfect security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another.
+
+We study this problem in depth in cryptography. Perfectly secure systems provide strong protection because an attacker cannot learn useful information about the message from the ciphertext alone.
+
+Perfect secrecy is an important concept in modern cryptography. The one time pad is a well known example of an encryption scheme that can achieve perfect secrecy when the key is chosen correctly and used only once.
+
+

@@ -1,0 +1,2 @@
+Plaintext: HELLO WORLD
+Key: 13
