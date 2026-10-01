@@ -1,0 +1,46 @@
+=================================================================
+AES-CBC PADDING ORACLE ATTACK
+=================================================================
+
+[+] IV:
+11d6f6174c47f83595ff9bdb79ad3f55
+
+[+] Ciphertext:
+52e30de8abbf84d4466e81dd1296be2b0f2f07352306dc688f6f21342c365a34f29167a272118179c02d6a86dee9c52ac7d77d86c836c838e900a60f4fa2972a744bccf1a0f29e898cd6102e28409ede
+
+[+] Ciphertext length:
+80 bytes
+
+[+] Number of ciphertext blocks:
+5
+
+[+] Starting attack...
+
+[*] Recovering plaintext block 1/5...
+    Recovered: b'Padding oracle a'
+[*] Recovering plaintext block 2/5...
+    Recovered: b'ttacks demonstra'
+[*] Recovering plaintext block 3/5...
+    Recovered: b'te why authentic'
+[*] Recovering plaintext block 4/5...
+    Recovered: b'ated encryption '
+[*] Recovering plaintext block 5/5...
+    Recovered: b'matters.\x08\x08\x08\x08\x08\x08\x08\x08'
+
+=================================================================
+RESULTS
+=================================================================
+
+Original plaintext:
+Padding oracle attacks demonstrate why authenticated encryption matters.
+
+Recovered plaintext:
+Padding oracle attacks demonstrate why authenticated encryption matters.
+
+Total oracle queries:
+9714
+
+Recovery successful:
+True
+
+=================================================================
