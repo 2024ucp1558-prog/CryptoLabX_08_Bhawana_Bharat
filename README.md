@@ -144,7 +144,38 @@ A Monoalphabetic Substitution Cipher replaces each plaintext letter with another
 Although the actual letters are changed, the frequency characteristics of the language are approximately preserved. Therefore, frequency analysis and word patterns can be used to recover the plaintext.
 
 For this assignment, the cipher is implemented and cryptanalysis is performed using letter frequency, word frequency, repeated words, and repeated letter patterns.
-Assignment 6 – Cryptanalysis of Vigenère Cipher
+
+
+Assignment 7 
+
+This assignment focuses on understanding and implementing a Padding Oracle Attack against AES-CBC encryption.
+
+    AES-CBC is a block cipher mode that uses the previous ciphertext block during decryption.
+
+    PKCS#7 padding is used to make plaintext fit the AES 16-byte block size.
+
+    A padding oracle reveals whether the decrypted ciphertext contains valid padding.
+
+    The attack exploits this oracle without knowing or accessing the AES secret key.
+
+    The previous ciphertext block is modified to manipulate the plaintext of the target block.
+
+    The oracle is queried repeatedly with different byte values.
+
+    Plaintext bytes are recovered from right to left.
+
+    The attack is repeated for each ciphertext block until the complete plaintext is recovered.
+
+    The program counts the total number of oracle queries used during the attack.
+
+    The recovered plaintext is compared with the original plaintext to verify successful recovery.
+
+    The experiment demonstrates that encryption alone is not sufficient if an application leaks information through its error responses.
+
+    In real systems, padding-oracle vulnerabilities can be prevented by avoiding distinguishable padding errors and using authenticated encryption, such as AES-GCM.
+
+    The implementation provides practical understanding of AES-CBC, PKCS#7 padding, CBC manipulation, oracle-based attacks, and secure cryptographic design.
+
 
 The Vigenère Cipher is a polyalphabetic substitution cipher that uses a repeating key. Different shifts are applied to different letters according to the key.
 
