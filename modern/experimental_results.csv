@@ -1,0 +1,11 @@
+Parameter,Value
+Assigned bit length,512
+Generated prime candidate,"9240989453559720019413438131525058426828677808372712883026704951053027542104883953433798209167170516972942406646157132836720350340719043423131802389943371"
+Actual bit length,512
+Candidates tested,302
+Miller-Rabin rounds per full test,40
+Search Miller-Rabin rounds,127
+Final verification rounds,40
+Execution time (seconds),0.097605
+Miller-Rabin verification,PASS
+OpenSSL primality verification,PASS
