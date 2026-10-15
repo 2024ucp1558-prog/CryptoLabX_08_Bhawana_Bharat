@@ -198,7 +198,7 @@ bool opensslPrimeCheck(const BigInt& n) {
     BN_CTX_free(context);
 
     if (result < 0) {
-        throw runtime_error("OpenSSL primality check failed");
+        throw runtime_error("OpenSSL primality check failed ");
     }
 
     return result == 1;
