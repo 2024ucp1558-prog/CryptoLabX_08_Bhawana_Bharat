@@ -1,4 +1,5 @@
-*.zip
-SAST_Lab/sonarqube/
-.scannerwork/
-**/.scannerwork/
+analysis/.venv/
+analysis/LinuxDotnetRNG/bin/
+analysis/LinuxDotnetRNG/obj/
+analysis/__pycache__/
+analysis/.ipynb_checkpoints/
