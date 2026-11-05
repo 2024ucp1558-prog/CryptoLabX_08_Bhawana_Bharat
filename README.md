@@ -175,6 +175,98 @@ This assignment focuses on understanding and implementing a Padding Oracle Attac
     In real systems, padding-oracle vulnerabilities can be prevented by avoiding distinguishable padding errors and using authenticated encryption, such as AES-GCM.
 
     The implementation provides practical understanding of AES-CBC, PKCS#7 padding, CBC manipulation, oracle-based attacks, and secure cryptographic design.
+ 
+# Cryptography Lab Assignment 10
+
+## Objective
+
+To understand the weaknesses of MT19937
+through stream cipher implementation,
+known-plaintext seed recovery, and
+timestamp-based token security analysis.
+
+## Part A: MT19937 Stream Cipher
+
+### Implementation
+
+Implemented MT19937 using NumPy.
+
+Generated one 8-bit keystream value
+for every plaintext byte.
+
+### Encryption and Decryption
+
+Encryption and decryption were performed
+using XOR operations.
+
+### Known Plaintext Attack
+
+Generated plaintext containing a random
+prefix followed by 14 consecutive A characters.
+
+Used a randomly selected 16-bit seed.
+
+### Seed Recovery
+
+Search space: 65536 possible seeds.
+
+Recovered seed: [Your output]
+
+Seed verification: Successful.
+
+Plaintext verification: Successful.
+
+## Part B: Predictable Reset Tokens
+
+### Token Generation
+
+Used the current Unix timestamp
+to initialize MT19937.
+
+Generated a 16-byte token.
+
+### Token Information
+
+Timestamp: [Your output]
+
+Token: [Your output]
+
+### Prediction Analysis
+
+Search interval: T-300 to T+300.
+
+Possible timestamp candidates: 601.
+
+The demonstration regenerated the token
+using its recorded timestamp.
+
+Token verification: Successful.
+
+### Security Observation
+
+Timestamp-based seeding makes
+pseudorandom output predictable.
+
+## Part C: Security Recommendations
+
+MT19937 should not be used for
+security-sensitive token generation.
+
+Python's secrets module should be used
+for generating secure reset tokens.
+
+## Conclusion
+
+This experiment demonstrated that
+statistical pseudorandom generators
+are unsuitable for cryptographic security.
+
+Known plaintext can help identify weak
+seeded stream ciphers, while timestamp-based
+seeding introduces predictability into
+security-sensitive applications.
+
+
 
 
 The Vigenère Cipher is a polyalphabetic substitution cipher that uses a repeating key. Different shifts are applied to different letters according to the key.
